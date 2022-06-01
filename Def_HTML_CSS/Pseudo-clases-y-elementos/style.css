@@ -1,0 +1,28 @@
+.Main-nav{
+    margin-top: 10px;
+    list-style: lower-roman;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.Main-nav__item{
+    display: inline-block;
+}
+.Main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px ;
+    border-color: beige;
+    text-decoration: doub,le;
+}
+
+.Main-nav__item a:hover{
+    color: gray;
+}
+.Main-nav__item a:active{
+    color: green;
+}
+.Main-nav__item a::before{
+    content: " d! ";
+}

@@ -1,0 +1,25 @@
+
+h1 + p{
+    color:aqua;
+}
+p + h3{
+    color:teal;
+}
+
+h4 ~ p.parrafo{
+    color: red;
+}
+
+div > p.son_par{
+    color: lawngreen;
+}
+div > h1.son_H{
+    color: blueviolet;
+}
+
+div  p.des_p{
+    color:salmon;
+}
+div  h1.des_H{
+    color: darkorange;
+}

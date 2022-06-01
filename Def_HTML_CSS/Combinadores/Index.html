@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Combinadores</title>
+</head>
+<body>
+    <!-- inicio bloque de prueba combinador hermano adyasente -->
+    <div>
+        <p>parrafo cambia color</p>
+        <h1>Titulo cambiador</h1>
+        <p>parrafo cambia debido al header de arriba</p>
+        <h1>Titulo cambiador h1</h1>
+        <p>parrafo cambido debido al h1 de arriba</p>
+        <h3>Titulo cambia debido al p de arriba</h3>
+        <p>este p no le pasa nada</p> 
+    </div>
+    <!-- fin bloque de prueba  combinador hermano adyasente -->
+    <!-- inicio de bloque de prueba combinador hermano general -->
+    <div>
+        <p class="parrafo">parrafo  </p>
+        <h4>Titulo que cambia todos los p de abajo de este</h4>
+        <p class="parrafo">parrafo cambidor y p hermano</p>
+        <h1>Titulo cambiador h1</h1>
+        <p class="parrafo">parrafo cambidor y p hermano</p>
+    </div>
+    <!-- Final de bloque de prueba de combinador hermano general -->
+    <!-- inicio bloque de prueba de combinador hijo -->
+    <div>
+        <h1 class="son_H">Cambio el color del h1 por el div</h1>
+        <p class="son_par">Cambio el color del P por el div</p>
+    </div>
+    <!-- Final bloque de prueba de combinador hijo -->
+    <!-- inicio bloque de prueba de combinador descendiente -->
+    <div>
+        <section>
+            <h1 class="des_H">Cambio el color del h1 por el div</h1>
+            <p class="des_p">Cambio el color del P por el div</p>
+        </section>
+        
+    </div>
+    <!-- Final bloque de prueba de combinador descendiente -->
+</body>
+</html>
