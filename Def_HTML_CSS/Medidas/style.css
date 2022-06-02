@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    background-color:brown;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    background-color: burlywood;
+    width: 50%;
+    min-width: 200px;
+    min-height: 400px;
+    margin: 0 auto;
+}
+p.absolute {
+    font-size: 18px;
+}
+div{
+    font-size:  10px;
+}
+p.relative-em{
+    font-size: 2em;
+    margin-top: 0.1em;
+}
+p.relative-rem{
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+.box{
+    font-size: 1.7rem;
+    
+
+}
