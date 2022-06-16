@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+main .main-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 10px;
+}
+
+main .main-logo img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+main .main-logo div{
+    position: relative;
+    top: -5px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    
+}
+main .main-logo div span{
+    font-size: 3rem;
+    position: relative;
+    left:-5px;
+    
+}
+main .main-input{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+    margin-bottom:20px ;
+}
+main .main-input .input-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    border-radius:3px;
+    border: 1px solid #000000;
+    width: 80%;
+    
+}
+main .main-input .input-container input[type="text"]{
+    margin-left: 10px;
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: #447FF5;
+}
+/* main .main-input .input-container input[type="text"]:hover{
+    border: 2px solid  #447FF5;
+} */
+main .main-input .input-container .search-language{
+    position: relative;
+    top: 10px;
+    width: 14%;
+    height: auto;
+    display: inline-block;
+    border: none;
+}
+main .main-input .input-container button{
+    position: relative;
+    top: -1px;
+    right: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #447FF5;
+    border: 1px solid #447FF6;
+    border-radius: 3px;
+    width: 15%;
+    height: 104%;
+}
+main .main-input .input-container button:hover{
+    background-color:  #4E86F6;
+}
+
+main .main-input .input-container .search-icon{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+}
+main .central-language{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 300px;
+}
+main .central-language div{
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #36c;
+    justify-content: center;
+    font-size:1.5rem;
+    width: 100%;
+    height: 50px;
+    height: auto;
+}
+main .central-language div a{
+    color: #36c;
+    text-decoration: none;
+}
+main .central-language div a small{
+    display: block;
+    color: #54595d;
+    margin-top: 5px;
+}
+main .central-language div a small bdi, main .central-language div a small span{
+    display: block;
+}
+main .list-language-button{
+    width: 100%;
+    height: 30px;
+}
+main .list-language-button button{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 1.4rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #f8f9fa;
+    color: #36c;
+    border: 1px solid #a2a9b1;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+main .list-language-button button:hover{
+    background-color: white;
+}
+

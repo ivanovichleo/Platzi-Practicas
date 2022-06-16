@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1,.box3,.box5{
+    background-color: aquamarine;
+}
+.box2,.box4,.box6{
+    background-color: burlywood;
+}
