@@ -135,6 +135,7 @@ main .central-language div a small bdi, main .central-language div a small span{
 main .list-language-button{
     width: 100%;
     height: 30px;
+    margin-bottom: 30px;
 }
 main .list-language-button button{
     display: block;
@@ -152,4 +153,7 @@ main .list-language-button button{
 main .list-language-button button:hover{
     background-color: white;
 }
-
+footer{
+    width: 100%;
+    height: 1000px;
+}
