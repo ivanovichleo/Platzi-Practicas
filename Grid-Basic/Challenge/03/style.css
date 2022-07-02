@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: grid;
+    width: 100vw;
+    height: 500px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px ;
+
+    border: 5px solid burlywood;
+    background-color: aliceblue;
+}
+
+.container-challenge{
+    display: grid;
+    width: 100vw;
+    height: 500px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px ; 
+    grid-template-areas: 
+    "blue violet violet"
+    "black black bluetwo"
+    "bluethree violetwo blacktwo";
+    place-content: center;
+    place-content: center;
+    border: 5px solid burlywood;
+    background-color: aliceblue;
+}
+.container .item{
+    font-size: 5.6rem;
+    width: 100%;
+}
+.container-challenge .item{
+    font-size: 5.6rem;
+    width: 100%;
+}
+
+.container-challenge .item-1{
+    grid-area: blue;
+    background-color: blue;
+    justify-items: center;
+}
+
+.container-challenge .item-2{
+    grid-area: violet;
+    background-color: blueviolet;
+}
+
+.container-challenge .item-3{
+    color: white;
+    grid-area: black;
+    background-color: black;
+}
+.container-challenge .item-4{
+    grid-area: bluetwo;
+    background-color: blue;
+}
+.container-challenge .item-5{
+    grid-area: bluethree;
+    background-color: blue;
+}
+.container-challenge .item-6{
+    grid-area: violetwo;
+    background-color: blueviolet;
+}
+.container-challenge .item-7{
+    grid-area: blacktwo;
+    color: white;
+    background-color: black;
+}
+

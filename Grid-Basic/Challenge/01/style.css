@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    font-size: 10rem;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-auto-columns: 300px;
+    grid-auto-flow: column;
+    place-content: center;
+    gap: 20px;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 1000px;
+}
+
+.container .item{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
