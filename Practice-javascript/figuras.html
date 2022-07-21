@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./calculadordefiguras.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section class="square-calc">
+            <div class="square_calc_content">
+            <H1>Cuadrado</H1>
+            <form action="">
+            <input type="number" name="" id="input-lado" placeholder=" Ingrese el valor del lado del Cuadrado">
+            <button type="button" onclick="calcular_area_cuadrado()"> Area del Cuadrado</button>
+            <button type="button" onclick="calcular_perimetro_cuadrado()"> Perimetro del Cuadrado</button>   
+            </form>
+            </div>
+        </section>
+        <section class="triangle-calc">
+            <H1>Triangulo</H1>
+            <form action="">
+            <div class="values_form_triangle">
+            <input type="number" name="" id="input_a" placeholder="Ingrese el valor del lado a del Triangulo">
+            <input type="number" name="" id="input_b" placeholder="Ingrese el valor del lado b del Triangulo">
+            <input type="number" name="" id="input_c" placeholder="Ingrese el valor de la base del Triangulo">
+            </div>
+            <button type="button" onclick="calcular_area_triangulo()"> Area del triangulo</button>
+            <button type="button"> Perimetro del triangulo</button>
+            </form>
+            
+        </section>
+
+
+    </div>
+    
+</body>
+</html>
